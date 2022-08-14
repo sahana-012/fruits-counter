@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+.background-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.fruits-container {
+  background-color: #ffffff;
+  /* height: 90vh; */
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.fruits-image {
+  width: 50vw;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-image {
+    width: 13vw;
+  }
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-container {
+    margin-top: 30px;
+  }
+}
+
+.eaten-fruits-count {
+  color: #ffd569;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.eat-fruit-button {
+  background-color: #007bff;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .eat-fruit-button {
+    font-size: 12px;
+  }
+}
+
+.counter-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.counters-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .counters-control-container {
+    flex-direction: row;
+  }
+}
